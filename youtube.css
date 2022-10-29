@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*   # is use to target id */
+
+#yt_logo {
+    height: 50px;
+    width: 150px;
+    /* padding: 18px 14px 18px 16px; */
+}
+
+/*   . is use to target class */
+.yt_header {
+    height: 56px;
+    background-color: white;
+    /* border-bottom-color: gray;
+    border-bottom-width: 3px;
+    border-bottom-style: double; */
+    border-bottom: 1.4px solid gray;
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.yt_search_holder {
+    width: 45%;
+    height: 47px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 8px;
+    border-radius: 20px;
+}
+
+#yt_search {
+    width: 92%;
+    height: 47px;
+    border: 1px solid gray;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.yt_search_holder i {
+    color: aliceblue;
+}
+
+#profile {
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.selectors {
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+}
+
+.selectors .btn {
+    background-color: black;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 7px;
+    color: white;
+}
+
+.card {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    border-radius: 7px;
+    margin-bottom: 12px;
+}
+
+.card:hover {
+    scale: 1.1;
+}
+
+.card .card_header {
+    height: 50%;
+    width: 100%;
+}
+
+.card .card_header video {
+    height: 100%;
+    width: 300px;
+}
+
+.card_title {
+    height: 70px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.card_description {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.card_body {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+#video_section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 12px;
+    justify-content: space-evenly;
+}
