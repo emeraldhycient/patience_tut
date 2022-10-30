@@ -1,0 +1,66 @@
+.video_details_holder {
+    height: 100vh;
+    width: 100vw;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.grid_one {
+    height: 100%;
+    width: 70%;
+}
+
+.grid_two {
+    height: 100%;
+    width: 28%;
+    background-color: aliceblue;
+}
+
+#grid_one_video_container {
+    height: 80vh;
+    width: 98%;
+}
+
+#grid_one_video_container video {
+    height: 77vh;
+    width: 100%;
+}
+
+.grid_one_action_tab {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subscribe_holder {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.pill {
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.description_tab {
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 12px;
+}

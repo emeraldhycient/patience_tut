@@ -32,7 +32,7 @@
 
 .yt_search_holder {
     width: 45%;
-    height: 47px;
+    height: 40px;
     background-color: black;
     display: flex;
     justify-content: space-between;
@@ -43,14 +43,16 @@
 
 #yt_search {
     width: 92%;
-    height: 47px;
+    height: 40px;
     border: 1px solid gray;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    text-align: center;
 }
 
 .yt_search_holder i {
     color: aliceblue;
+    margin: auto;
 }
 
 #profile {
