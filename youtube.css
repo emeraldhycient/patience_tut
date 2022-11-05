@@ -80,7 +80,8 @@
 .card {
     height: 300px;
     width: 300px;
-    background-color: black;
+    /* background-color: black; */
+    color: black;
     border-radius: 7px;
     margin-bottom: 12px;
 }
@@ -101,19 +102,25 @@
 
 .card_title {
     height: 70px;
-    color: white;
+    color: black;
     display: flex;
+    font-weight: bolder;
+    /* font-size: xx-large; */
     align-items: center;
 }
 
 .card_description {
-    color: whitesmoke;
-    text-align: center;
+    color: black;
+    text-align: left;
+    /* line-height: 3em; */
+    /* word-spacing: 3em; */
+    /* letter-spacing: 3em; */
 }
 
 .card_body {
     padding-left: 10px;
     padding-right: 10px;
+    color: black;
 }
 
 

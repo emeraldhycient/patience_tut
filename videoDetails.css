@@ -64,3 +64,17 @@
     color: white;
     padding: 12px;
 }
+
+.video_card2 {
+    background: black;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.video_card2:hover {
+    background-color: white;
+    color: black;
+}
